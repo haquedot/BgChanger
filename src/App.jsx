@@ -58,6 +58,12 @@ function App() {
             onClick={() => setColor("tomato")}
             className="outline-none px-4 py-1 rounded text-white"
             style={{ backgroundColor: "tomato" }}>tomato</button>
+
+          <button
+            onClick={() => setColor("dodgerblue")}
+            className="outline-none px-4 py-1 rounded text-white"
+            style={{ backgroundColor: "dodgerblue" }}>
+            Dodgerblue</button>
         </div>
       </div>
     </div>
