@@ -107,6 +107,12 @@ function App() {
             style={{ backgroundColor: "FireBrick" }}>
             FireBrick</button>
             
+            <button
+            onClick={() => setColor("IndianRed")}
+            className="outline-none px-4 py-1 rounded text-white"
+            style={{ backgroundColor: "IndianRed" }}>
+            IndianRed</button>
+            
             
         </div>
       </div>
